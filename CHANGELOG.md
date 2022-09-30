@@ -1,5 +1,9 @@
 # Changelog
 
+## 5.6.1 (September 30, 2022) Redistribution
+
+- [001]() Change lodash version
+
 ## 5.6.0 (July 8, 2022)
 
 - [237](https://github.com/segmentio/consent-manager/pull/237) Change emotion/core to emotion/react, and fix issue on dialog

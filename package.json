@@ -1,6 +1,6 @@
 {
-  "name": "@segment/consent-manager",
-  "version": "5.6.0",
+  "name": "lgpd-consent",
+  "version": "0.0.1",
   "description": "Drop-in consent management plugin for analytics.js",
   "keywords": [
     "gdpr",
@@ -8,7 +8,7 @@
     "analytics",
     "analytics.js"
   ],
-  "repository": "segmentio/consent-manager",
+  "repository": "tihmdcc/lgpd-consent",
   "license": "MIT",
   "main": "commonjs/index.js",
   "module": "esm/index.js",
@@ -45,6 +45,7 @@
     "emotion": "^9.1.2",
     "isomorphic-fetch": "^3.0.0",
     "js-cookie": "^2.2.0",
+    "lodash": "^4.17.10",
     "lodash-es": "^4.17.10",
     "nanoid": "^1.0.2",
     "prop-types": "^15.6.1",
