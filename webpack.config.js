@@ -15,7 +15,7 @@ module.exports = {
     alias: {
       react: 'preact/compat',
       'react-dom': 'preact/compat',
-      lodash: 'lodash-es'
+      lodash: 'lodash'
     },
     extensions: ['.tsx', '.ts', '.js']
   },
@@ -23,6 +23,11 @@ module.exports = {
     rules: [
       {
         test: /\.tsx?$/,
+        exclude: /node_modules/,
+        loader: 'ts-loader'
+      },
+      {
+        use: /\.tsx?$/,
         exclude: /node_modules/,
         loader: 'ts-loader'
       }
